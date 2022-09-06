@@ -10,13 +10,47 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_09_01_175444) do
+ActiveRecord::Schema[7.0].define(version: 2022_09_05_144812) do
+  create_table "answers", force: :cascade do |t|
+    t.string "content"
+    t.integer "formulary_id"
+    t.integer "question_id"
+    t.integer "visit_id"
+    t.datetime "answered_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "formularies", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "questions", force: :cascade do |t|
+    t.string "name"
+    t.integer "formulary_id"
+    t.string "type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "usuarios", force: :cascade do |t|
     t.string "name"
     t.string "email"
     t.string "cpf"
     t.string "password"
     t.string "password_digest"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "visits", force: :cascade do |t|
+    t.datetime "data"
+    t.string "status"
+    t.integer "user_id"
+    t.datetime "checkin_at"
+    t.datetime "checkout_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
