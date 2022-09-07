@@ -24,5 +24,5 @@ assunto.
 
 Data final: 07/09
 
-Obs.: Infelizmente, por não ter conseguido finalizar com êxito algumas etapas do processo, passei para atividades/fases posteriores. 
+##### Obs.: Infelizmente, por não ter conseguido finalizar com êxito algumas etapas do processo, passei para atividades/fases posteriores. 
 ---
