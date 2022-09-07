@@ -1,12 +1,6 @@
 Rails.application.routes.draw do
-  resources :answers
-  resources :questions
-  resources :formularies
-  resources :visits
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  resources :answers, :questions, :formularies, :visits
 
-  # Defines the root path route ("/")
-  # root "articles#index"
   resource :usuarios, only: [:create]
   post '/login', to: 'usuarios#login'
   get '/auto_login', to: 'usuarios#auto_login'

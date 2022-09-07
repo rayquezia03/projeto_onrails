@@ -9,7 +9,7 @@ gem 'rack-cors', '~> 1.1', '>= 1.1.1'
 
 gem 'paranoia', '~> 2.6'
 #gem 'paperclip', '~> 6.1'
-gem 'respec', '~> 0.9.1'
+gem 'rspec', '~> 3.11'
 gem 'jwt', '~> 2.5'
 
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
