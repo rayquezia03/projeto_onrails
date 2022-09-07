@@ -18,15 +18,12 @@ gem "sqlite3", "~> 1.4"
 
 gem "puma", "~> 5.0"
 
-# Build JSON APIs with ease [https://github.com/rails/jbuilder]
-# gem "jbuilder"
-
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 gem "bootsnap", require: false
 
 group :development, :test do
-  gem 'respec', '~> 0.9.1' 
+  gem 'rspec', '~> 3.11'
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
 
