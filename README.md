@@ -17,10 +17,10 @@ assunto.
 
 ### Considerações sobre o desenvolvimento:
 
-## Fase 1: Estudei e busquei entender sobre os conceitos até então desconhecidos;
-## Fase 2: Setup Inicial: Preparação do ambiente, criação dos controllers, models, instação de gems..;
-## Fase 3: Validações de campos
-## Fase 4: Testes com rspec.
+# Fase 1: Estudei e busquei entender sobre os conceitos até então desconhecidos;
+# Fase 2: Setup Inicial: Preparação do ambiente, criação dos controllers, models, instação de gems..;
+# Fase 3: Validações de campos
+# Fase 4: Testes com rspec.
 
 Data final: 07/09
 
